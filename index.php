@@ -1,30 +1,23 @@
 <?php
 
-$target = 'PirmadIeNis';
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
-switch (strtoupper($target)) {
-	case 'PIRMADIENIS':
-		print 'Pirmadienis';
-		break;
-	case 'ANTRADIENIS':
-		print 'Antradienis';
-		break;
-	case 'TRECIADIENIS':
-		print 'Trečiadienis';
-		break;
-	case 'KETVIRTADIENIS':
-		print 'Ketvirtadienis';
-		break;
-	case 'PENKTADIENIS':
-		print 'Penktadienis';
-		break;
-	case 'ŠESTADIENIS':
-		print 'Šeštadienis';
-		break;
-	case 'SEKMADIENIS':
-		print 'Sekmadienis';
-		break;
-	default:
-		print 'Nera tokios savaites dienos';
-		break;
+// "Sukurkite FOR cikla kuris prasidetu nuo 0, veiktu iki kol kintamasisi pataps 10, ir atspausdins savo ciklo reiksme kas 1 vieneta"
+
+for($x=0;$x<=10;$x++){
+	print $x;
+}
+
+print '<br>';
+
+for($x=0;$x<=10;$x+=2){
+	print $x;
+}
+
+print '<br>';
+
+for($x=0;$x<=10;$x+=5){
+	print $x;
 }
