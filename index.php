@@ -1,10 +1,10 @@
 <?php
+// "2. sukurti sakini is 5< zodziu.
+// po kiekvieno zodzio yra padetas taskas.
+// jums reikia naudojant bazines php funkcijas tuos taskus pakeisti i tarpus."
 
-// "1. ekrane atvazduokite teksta 'Šios dienos data - ' ir su php atvaizuokite šios dienos datą"
+$text = 'Mano. vardas. Tomas. ir. as. esu. sportininkas.';
 
-$string = 'Šios dienos data - ';
-$date = date('Y/m/d');
-
-$result = $string . $date;
+$result = str_replace('.', ' ', $text);
 
 print $result;
