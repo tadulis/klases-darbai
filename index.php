@@ -1,10 +1,9 @@
 <?php
-// "2. sukurti sakini is 5< zodziu.
-// po kiekvieno zodzio yra padetas taskas.
-// jums reikia naudojant bazines php funkcijas tuos taskus pakeisti i tarpus."
 
-$text = 'Mano. vardas. Tomas. ir. as. esu. sportininkas.';
+// "3. Sukurti stringa kuris susidarytu is sakinio. Turi jame egzistuoti didziosios ir mazosios raides. Panaudoti php default'ine funkcija kuri visas stringo raides paverstu didziosiomis arba mazosiomis"
 
-$result = str_replace('.', ' ', $text);
+$text = 'Mano vardas Tomas, aš esu iš Povilaičiu šeimynos.';
+
+$result = strtolower($text);
 
 print $result;
