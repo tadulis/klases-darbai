@@ -23,3 +23,16 @@ for ($savaitesNr = 1; $savaitesNr <= 4; $savaitesNr++) {
 print $kiekIsgeriauPerMenesi;
 
 ?>
+<!--0. deze = 24; pirmadienis-ketvirtadienis( random 1-3 buteliukai);-->
+<!--penktadienis (random 4-6 buteliukai); sestadienis (random 1-2 buteliukai);-->
+<!--sekmadienis 0;-->
+<!---->
+<!--1. Sukurti cikla kuris skaiciuotu kiek mes per savaite-->
+<!--suvartojam limonado.-->
+<!---->
+<!--2. sukurti cikla kuris apskaiciuotu kiek mes suvartojam limonado-->
+<!--per menesi.-->
+<!---->
+<!--3. gauta kieki buteliuku per menesi atskirti kas 24 vnt (dezes dydis)-->
+<!--ir atvaizduoti front-end'e dezemis o jose bteliukais (img)-->
+
