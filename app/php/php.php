@@ -20,7 +20,11 @@ for ($savaitesNr = 1; $savaitesNr <= 4; $savaitesNr++) {
     $kiekIsgeriauPerPirmaSavaite = $kiekIsgeriau + $penktadienis + $sestadienis + $sekmadienis;
     $kiekIsgeriauPerMenesi += $kiekIsgeriauPerPirmaSavaite;
 }
-print $kiekIsgeriauPerMenesi;
+print $kiekIsgeriauPerMenesi . '<br>';
+
+$pilnuDeziuKiekis = floor($kiekIsgeriauPerMenesi / $dezesDydis);
+$likeButeliai = ($kiekIsgeriauPerMenesi / $dezesDydis - $pilnuDeziuKiekis) * $dezesDydis;
+
 
 ?>
 <!--0. deze = 24; pirmadienis-ketvirtadienis( random 1-3 buteliukai);-->
