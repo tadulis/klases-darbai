@@ -19,13 +19,10 @@ include_once './app/php/php.php';
 </head>
 <body class="d-flex justify-content-center flex-wrap">
 
-<?php for ($x=1; $x<=$pilnuDeziuKiekis; $x++): ?>
-    <div class="alaus-deze"></div>
-<?php endfor; ?>
+<?php
+form();
+?>
 
-<?php for ($x=1; $x<=$likeButeliai; $x++): ?>
-    <div class="alaus-butelys"></div>
-<?php endfor; ?>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script type="text/javascript" src="./assets/js/jquery.js"></script>
